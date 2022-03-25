@@ -3,13 +3,15 @@ Moana Ocean Hindcast source code and configuration files
 
 Folder configuraton contains:
 
- nz5km_grd.nc   - model grid
+ nz5km_nudg_N50.nc - Nudging coeficients input file
  
- roms3d.h       - compilation options for ROMS model
+ nz5km_grd.nc      - model grid
  
- roms_config.sh - compilalor, libraries and flags used
+ roms3d.h          - compilation options for ROMS model
  
- roms.in        - model input file
+ roms_config.sh    - compilalor, libraries and flags used
+ 
+ roms.in           - model input file
  
  
  Folder roms_src contains the ROMS model source code used (v3.9)
